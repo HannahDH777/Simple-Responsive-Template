@@ -1,0 +1,123 @@
+.body {
+	background-color: white;
+}
+
+
+
+.button-primary :hover {
+	color: rgb(73, 243, 73)
+}
+
+.carousel-indicators [data-bs-target] {
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50%;
+	position: relative;
+	top: 30px;
+}
+
+button[ class^="carousel-control-"]>span {
+	background-color: gray;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.body{
+	display: block;
+}
+
+
+/*MAIN MENU*/
+.menu-toggle {
+	display: block;
+	padding: 10px;
+	margin: 20px 0 0;
+	background: #666;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.menu-toggle.toggled-on {
+	background: #0099ff;
+}
+
+.srt-menu {
+	display: none;
+}
+
+.srt-menu.toggled-on {
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.srt-menu {
+	clear: both;
+	margin-bottom: 60px;
+
+}
+
+.srt-menu li a {
+	background: #dadada;
+	display: block;
+	margin: 1px 0;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.srt-menu li a:hover {
+	background: #0099ff;
+	color: #fff;
+}
+
+.srt-menu li li a {
+	background: #e8e8e8;
+	padding-left: 40px;
+}
+
+.srt-menu li li li a {
+	background: #efefef;
+	padding-left: 80px;
+}
+
+.row{
+	margin-left:200px ;
+}
+/*SECONDARY MENU*/
+.secondarymenu{
+	list-style: none; 
+	width: 50px;
+	float: right;
+	margin-top: -1700px;
+	margin-right: 200px;
+}
+#secondary-navigation ul{
+	margin:0;
+	padding:0;
+}
+#secondary-navigation ul li a{ 
+	background:#E6E6E6;
+	display:block;
+	margin:5px 0; 
+	padding:10px;
+	text-decoration:none;
+}
+#secondary-navigation ul li a:hover,
+#secondary-navigation ul li.current a{
+	background:#0099ff;
+	color:#fff;
+}
+
+aside { 
+	margin:40px 0;
+}
+
+p{ margin:0 0 1.5em;}
+ul {
+    list-style-type: none;
+}
